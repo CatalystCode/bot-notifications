@@ -85,7 +85,7 @@ This sample includes:
 
 1. Create an ngrok public endpoint [see here for details](https://github.com/Microsoft-DXEIP/Tokyo-Hack-Docs#1-with-your-app-still-running-on-localhost-bind-the-localhost-deployment-with-ngrok-we-will-need-this-url-for-registering-our-bot)
 2. Update your bot registration to reference that endpoint (probably `https://something.ngrok.io/api/messages`)
-[![Preview](/docs/referenceBotToNgrok.png)](/docs/referenceBotToNgrok.png)
+![Reference bot to ngrok endpoint](/docs/referenceBotToNgrok.png)](/docs/referenceBotToNgrok.png)
 3. Run your bot on Mac (remember to restart if you change your code):  
     Set your environment variables and run your code:  
     `MICROSOFT_APP_ID=app_id MICROSOFT_APP_PASSWORD=app_password node dist/app.js`   
