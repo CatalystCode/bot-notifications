@@ -88,11 +88,11 @@ This sample includes:
 ![Reference bot to ngrok endpoint](/docs/referenceBotToNgrok.jpg)
 3. Run your bot on Mac (remember to restart if you change your code):  
     Set your environment variables and run your code:  
-    `MICROSOFT_APP_ID=app_id MICROSOFT_APP_PASSWORD=app_password node dist/app.js`   
+    `appId=app_id appPassword=app_password node dist/app.js`   
 4. Run your bot on Windows with PowerShell (remember to restart if you change your code):   
     Set your environment variables  
-          `$env:MICROSOFT_APP_ID = "app_id"`  
-          `$env:MICROSOFT_APP_PASSWORD = "app_password"`  
+          `$env:appId = "app_id"`  
+          `$env:appPassword = "app_password"`  
         Run your code:  
           `node .\dist\app.js` or `npm run start` 
 
@@ -109,8 +109,8 @@ Good luck!
 
 Required environment variables:
 ```
-"MICROSOFT_APP_ID" : "",
-"MICROSOFT_APP_PASSWORD" : "",
+"appId" : "",
+"appPassword" : "",
 "MICROSOFT_DIRECTLINE_SECRET" : "",
 "MONGODB_PROVIDER" : ""      
 ```
