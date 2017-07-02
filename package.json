@@ -1,6 +1,5 @@
 {
   "name": "botbuilder-notifications",
-  "author": "Elad Iwanir",
   "version": "0.0.1-beta",
   "license": "MIT",
   "description": "Provides notifications functionality between an 'admin' to users of a bot",
